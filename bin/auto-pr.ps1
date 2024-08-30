@@ -1,6 +1,6 @@
 param(
     # overwrite upstream param
-    [String]$upstream = "drannex42/scoopmain:main"
+    [String]$upstream = "drannex42/scoop:main"
 )
 
 if (!$env:SCOOP_HOME) { $env:SCOOP_HOME = Convert-Path (scoop prefix scoop) }
